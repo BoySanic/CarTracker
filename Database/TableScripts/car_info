@@ -1,0 +1,9 @@
+create table car_info (CarID INT NOT NULL AUTO_INCREMENT, 
+					   Make varchar(32)         NOT NULL,
+					   Model varchar(32)        NOT NULL, 
+					   ModelYear int            NOT NULL, 
+					   VIN varchar(20), 
+					   AcquireDateTime datetime NOT NULL, 
+					   SellDateTime datetime,
+					   PRIMARY KEY (CarID)
+					   );
