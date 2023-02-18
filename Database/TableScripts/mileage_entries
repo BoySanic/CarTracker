@@ -1,7 +1,9 @@
 create table mileage_entries(
 MileageEntryID INT    NOT NULL AUTO_INCREMENT,
+CarID INT NOT NULL,
 Mileage INT NOT NULL,
 GasGallons double NOT NULL,
 DollarsPerGal double NOT NULL,
+FuelDate datetime NOT NULL,
 PRIMARY KEY (MileageEntryID)
 );
